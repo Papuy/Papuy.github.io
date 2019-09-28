@@ -104,11 +104,17 @@ body {
     font-size: 20px;
     display: inline-flex;
     margin-top: 200px;
-    padding: 5px 90px 10px 100px;
+    padding:15px 105px 10px 105px;
+    text-align: center;
+    position: relative;
+    background: rgba(0,0,0,0.6);
+    width: 50px;
+    height: 30px;
 }
 .box-2 li a{
     color: green;
     text-decoration: none;
+ 
 }
 /*      END BOX 2           */
 
