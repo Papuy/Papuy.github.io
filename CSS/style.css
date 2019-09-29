@@ -147,9 +147,10 @@ body {
 
 /*      START COPYRIGHT     */
 .copyright {
-    color: #fff;
+    font-weight: 500;
+    color: whitesmoke;
     overflow: auto;
-    background-color: gray;
+    background-color: black;
     text-align: center;
     padding: 5px;
 }
