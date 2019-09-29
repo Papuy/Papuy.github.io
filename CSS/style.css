@@ -24,7 +24,7 @@ body {
     font-size: 20px;
     background-color: black;
     margin: auto;
-    padding: 5px 100px 15px 100px;
+    padding: 10px 100px 15px 100px;
     overflow: auto;
 }
 
@@ -90,6 +90,7 @@ body {
     padding: 20px 0;
 }
 .box-2 h2 {
+    font-weight: bold;
     background: rgba(0,0,0,0.6);
     width: 250px;
     height: 40px;
@@ -101,11 +102,11 @@ body {
     color: #ffff;
 }
 .box-2 li {
+    font-weight: bold;
     font-size: 20px;
     display: inline-flex;
     margin-top: 200px;
-    padding:15px 105px 10px 105px;
-    text-align: center;
+    padding: 15px 105px 10px 105px;
     position: relative;
     background: rgba(0,0,0,0.6);
     width: 50px;
@@ -125,11 +126,6 @@ body {
     padding: auto;
     text-align: center;
 }
-.forcre {
-    background-color: whitesmoke;
-    padding: 10px 0;
-    text-align: center;
-}
 /*      END BOX 3           */
 
 /*      START BOX 4         */
@@ -144,8 +140,8 @@ body {
 /*      START FOOTER      */
 .footer {
     overflow: auto;
-    background-color: black;
-    color: #fff;
+    background-color: gray;
+    color: black;
 }
 /*      END FOOTER      */
 
@@ -159,12 +155,37 @@ body {
 }
 /*      END COPYRIGHT       */
 
-.col-1, .col-2, .col-3 {
+.botlogo, .col-1, .col-2, .col-3 {
     float: left;
-    width: 30%;
+    width: 20%;
 }
 
 .col-2 li a, .col-3 li a{
     color: cyan;
     text-decoration: none;
 }
+
+/*      BOT LOGO    */
+.botlogo {
+    width: 20%;
+}
+
+/*      COL-1       */
+.col-1 {
+    padding: 0px 40px;
+}
+/*      COL-1       */
+
+/*      COL-2       */
+.col-2 {
+    padding: 0px 40px;
+    width: 200px;
+}
+/*      COL-2       */
+
+/*      COL-3       */
+.col-3 {
+    margin: auto;
+    padding: 0px 40px;
+}
+/*      COL-3       */
