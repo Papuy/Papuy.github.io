@@ -66,6 +66,7 @@ body {
     position: relative;
     height: 400px;
     padding: 20px 0;
+    /*background-attachment: fixed;*/
 }
 .spotlight h1 {
     background: rgba(0,0,0,0.6);
@@ -98,6 +99,7 @@ body {
     position: relative;
     height: 400px;
     padding: 20px 0;
+    background-attachment: fixed;
 }
 .box-2 h2 {
     font-weight: bold;
@@ -231,3 +233,14 @@ body {
     color: black;
 }
 /*      COL-3       */
+
+/*      START ARTICLE   */
+.article {
+    background-image: url("../images/wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    padding: 20px 0;
+}
