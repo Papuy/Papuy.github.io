@@ -248,7 +248,7 @@ body {
 /*              MINECRAFT.HTML            */
 /*      START SPOTLIGHT-2   */
 .spotlight-2 {
-    background-image: url("../images/Tentang Minecraft.jpg");
+    background-image: url("../images/Tentang\ minecraft\ \(2\).jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -273,11 +273,18 @@ body {
 
 /*      START ARTICLE       */
 .article {
+    position: inline;
     background-color: whitesmoke;
     overflow: auto;
-    padding: 10px 500px 10px 90px;
+    padding: 10px 100px 10px 90px;
     text-align: justify;
     height: 400px;
+}
+.article img {
+    float: right;
+    padding: 20px 0px 200px 50px;
+    height: 100px;
+    width: 400px;
 }
 
 /*                  USEFUL.HTML                */
@@ -304,4 +311,53 @@ body {
     transform: translate(-50%, -50%);
     color: #ffff;
 }
+.article-2 {
+    position: inline;
+    background-color: whitesmoke;
+    overflow: auto;
+    padding: 10px 150px 10px 90px;
+    text-align: justify;
+    height: 400px;
+}
+.article-2 img {
+    float: right;
+    padding: 0px 0px 180px 70px;
+}
 /*      END SPOTLIGHT-3        */
+
+/*              FORECRE.HTML            */
+/*      START SPOTLIGHT-4       */
+.spotlight-4 {
+    background-image: url("../images/Forum\ Craftnesia.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    height: 300px;
+    padding: 20px 0;
+    background-attachment: fixed;
+}
+.spotlight-4 h1 {
+    font-size: 50px;
+    background: rgba(0,0,0,0.6);
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+}
+.article-3 {
+    position: inline;
+    background-color: whitesmoke;
+    overflow: auto;
+    padding: 10px 150px 10px 90px;
+    text-align: justify;
+    height: 400px;
+}
+.article-3 img {
+    float: right;
+    padding: 0px 0px 90px 70px;
+}
