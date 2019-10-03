@@ -309,6 +309,8 @@ body {
     transform: translate(-50%, -50%);
     color: #ffff;
 }
+/*      END SPOTLIGHT-3     */
+/*      START ARTICLE-2     */
 .article-2 {
     position: inline;
     background-color: whitesmoke;
@@ -321,12 +323,23 @@ body {
     float: right;
     padding: 0px 0px 180px 70px;
 }
+/*      END ARTICLE-2       */
 /*      END SPOTLIGHT-3        */
 
-/*              FORCRE.HTML            */
-/*      START SPOTLIGHT-4       */
-.spotlight-4 {
-    background-image: url("../images/Forum\ Craftnesia.jpg");
+/*          CONTACT.HTML            */
+/*      START ARTICLE-4     */
+.article-4 {
+    height: 700px;
+    background-color: whitesmoke;
+    margin: auto;
+    width: 50%;
+
+}
+
+/*              BLOCK.HTML              */
+/*      START SPOTLIGHT-BLOCK     */
+.spotlight-block {
+    background-image: url("../images/Scenery.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -335,7 +348,7 @@ body {
     padding: 20px 0;
     background-attachment: fixed;
 }
-.spotlight-4 h1 {
+.spotlight-block h1 {
     font-size: 50px;
     background: rgba(0,0,0,0.6);
     width: 450px;
@@ -347,24 +360,171 @@ body {
     transform: translate(-50%, -50%);
     color: #ffff;
 }
-.article-3 {
+/*      END SPOTLIGHT-BLOCK     */
+/*      START ARTICLE-BLOCK     */
+.article-block {
     position: inline;
     background-color: whitesmoke;
     overflow: auto;
     padding: 10px 150px 10px 90px;
     text-align: justify;
-    height: 400px;
+    height: 600px;
 }
-.article-3 img {
-    float: right;
-    padding: 0px 0px 90px 70px;
-}
+/*      END ARTICLE-BLOCK        */
 
-/*      */
-.article-4 {
-    height: 700px;
+/*              ITEMS.HTML              */
+/*      START SPOTLIGHT-ITEMS     */
+.spotlight-items {
+    background-image: url("../images/Scenery.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    height: 300px;
+    padding: 20px 0;
+    background-attachment: fixed;
+}
+.spotlight-items h1 {
+    font-size: 50px;
+    background: rgba(0,0,0,0.6);
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+}
+/*      END SPOTLIGHT-ITEMS     */
+/*      START ARTICLE-ITEMS     */
+.article-items {
+    position: inline;
     background-color: whitesmoke;
-    margin: auto;
-    width: 50%;
-
+    overflow: auto;
+    padding: 10px 150px 10px 90px;
+    text-align: justify;
+    height: 600px;
 }
+/*      END ARTICLE-ITEMS        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*          BREWING.HTML            */
+/*      START SPOTLIGHT-BREW       */
+.spotlight-brew {
+    background-image: url("../images/Scenery.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    height: 300px;
+    padding: 20px 0;
+    background-attachment: fixed;
+}
+.spotlight-brew h1 {
+    font-size: 50px;
+    background: rgba(0,0,0,0.6);
+    width: 450px;
+    height: 75px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+}
+/*      END SPOTLIGHT-BREW     */
+/*      START ARTICLE-BREW     */
+.article-brew {
+    position: inline;
+    background-color: whitesmoke;
+    overflow: auto;
+    padding: 10px 150px 10px 90px;
+    text-align: justify;
+    height: 600px;
+}
+/*      END ARTICLE-BREW        */
